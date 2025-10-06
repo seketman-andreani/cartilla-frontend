@@ -1,5 +1,5 @@
-import styles from "./styles/appStyles";
 import { useAuth } from "./hooks/useAuth";
+import styles from "./styles/appStyles";
 
 function App() {
   const { user, login, logout } = useAuth();
@@ -35,12 +35,12 @@ function App() {
 
                 <button
                   type="button"
-                  onClick={() => login("osde")}
+                  onClick={() => login("opendevpro")}
                   style={styles.btnSecondary}
-                  aria-label="Iniciar sesión OSDE u otros"
+                  aria-label="Iniciar sesión OpenDev Pro"
                 >
                   <span style={styles.btnIcon}>🔒</span>
-                  Iniciar sesión Otros
+                  Iniciar sesión OpenDev Pro
                 </button>
               </div>
 
