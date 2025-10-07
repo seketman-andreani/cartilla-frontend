@@ -53,7 +53,7 @@ function App() {
             </>
           ) : (
             <div>
-              <h2 style={styles.welcomeTitle}>Bienvenido {user.name || user.email}</h2>
+              <h2 style={styles.welcomeTitle}>Hola {user.name || user.email}</h2>
               <div style={{ marginTop: 12, ...styles.profileBox }}>
                 <pre style={styles.pre}>{JSON.stringify(user, null, 2)}</pre>
               </div>
